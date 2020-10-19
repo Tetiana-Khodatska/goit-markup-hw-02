@@ -1,0 +1,138 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* цвет лого #2196F3 */
+/* цвет текста на баннере #FFFFFF */
+/* цвет подписки футера rgba(255, 255, 255, 0.4) */
+/* цвет фона вторичный #F5F4FA */
+/* цвет фото футера */
+
+:root {
+	--primary-text-color: #212121;
+	--title-text-color: #757575;
+	--accent-color: #2196f3;
+	--logo-color: #000000;
+	--primary-white-color: #ffffff;
+	--second-fon-color: #f5f4fa;
+	--footer-fon-color: #2F303A;
+}
+
+a {
+	list-style: none;
+	text-decoration: none;
+}
+
+/* hero */
+.hero_title {
+	background: var(--title-text-color);
+	color: var(--primary-white-color);
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.4;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.hero_button {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.06em;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Characteristics */
+.characteristics_title {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.characteristics_list {
+	text-decoration: none;
+	list-style: none;
+}
+
+.characteristics_subtitle {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.characteristics_subtitle {
+	color: var(--title-text-color);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+}
+
+/* wwhat are we doing? */
+
+.our_work_title  {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+.our_work_list {
+	list-style: none;
+}
+
+.our_work_subtitle {
+	color:
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14x;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+/* employees */
+
+.team_title  {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
+}
+
+.team_name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team_job {
+	color:var(--title-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.team_list {
+	text-decoration: none;
+	list-style: none;
+}

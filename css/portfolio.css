@@ -1,0 +1,46 @@
+/* button */
+.button-portfolio {
+	color: var(--primary-text-color);
+	background-color: var(--second-fon-color);
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+
+/* progects */
+.progect_list {
+	list-style: none;
+}
+
+.progect_name {
+	color: var(--primary-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.progect_title {
+	color: var(--title-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}
+
+.progect_text {
+	color: var(--title-text-color);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	letter-spacing: 0.03em;
+}
