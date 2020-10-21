@@ -1,5 +1,13 @@
 /* button */
-.button-portfolio {
+.button {
+	list-style: none;
+	display: flex;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.button_item {
 	color: var(--primary-text-color);
 	background-color: var(--second-fon-color);
 	font-family: inherit;
@@ -10,8 +18,8 @@
 	letter-spacing: 0.03em;
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+.button_item:hover,
+.button_item:focus {
 	color: var(--primary-white-color);
 	background-color: var(--accent-color);
 }
